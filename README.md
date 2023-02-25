@@ -17,13 +17,13 @@ To run **Evoe** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/desinic.git
+sudo git clone https://github.com/CarlosCerv/evoe-website.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/desinic.git
+git clone https://github.com/CarlosCerv/evoe-website.git
 ```
 
 
