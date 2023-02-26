@@ -36,15 +36,15 @@
    --rajah: hsl(29, 99%, 67%);
    --white: hsl(0, 0%, 100%);
 
-  --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
+  --gradient-1: linear-gradient(90deg,hsl(231deg 59% 31.64%) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
   --gradient-2: linear-gradient(90deg,var(--razzmatazz) ,var(--rajah));
 
   /**
    * typography
    */
 
-  --ff-source-sans-pro: 'Source Sans Pro', sans-serif;
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-source-sans-pro:'Source Sans Pro', sans-serif;
+  --ff-poppins:'Poppins', sans-serif;
 
   --fs-1: 4.2rem;
   --fs-2: 3.8rem;
@@ -85,9 +85,7 @@
    * shadow
    */
 
-  --shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
-
-}
+  --shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);}
 
 
 
@@ -907,7 +905,9 @@ body {
    * HEADER
    */
 
-  .header { padding-block: 20px; }
+  .header { 
+    padding-block: 20px; 
+  }
 
   .overlay,
   .nav-open-btn,
@@ -915,6 +915,7 @@ body {
 
   .navbar,
   .navbar.active {
+    background-image: url('../images/evoelogo.png');
     all: unset;
     margin-inline-start: auto;
   }
