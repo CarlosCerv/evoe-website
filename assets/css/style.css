@@ -369,7 +369,7 @@ body {
 .hero-title {
   color: var(--white);
   font-size: var(--fs-1);
-  margin-block-end: 20px;
+  margin-block-end: 50px;
 }
 
 .hero-text {
@@ -388,7 +388,7 @@ body {
 
 .about-banner { margin-block-end: 30px; }
 
-.about .section-title { margin-inline: 0; }
+.about .section-title { margin-inline: 10; }
 
 .about .underline::before {
   left: 0;
@@ -397,7 +397,7 @@ body {
 
 .about-text {
   font-size: var(--fs-8);
-  margin-block-end: 20px;
+  margin-block-end: 90px;
 }
 
 .stats-list {
